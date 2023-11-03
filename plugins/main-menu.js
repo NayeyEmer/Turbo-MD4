@@ -22,33 +22,33 @@ let tags = {
   'owner': 'O W N E R', */
 }
 const defaultMenu = {
-  before: `╔═══[ ＵＳＵＡＲＩＯＳ ]═══╗
+  before: `╔═══[ TURBO-BOT-MD ]═══╗
 ║╭──────────────
-║├⫹⫺ *Nombre :* %name
-║├⫹⫺ *Limite :* %diamond
-║├⫹⫺ *Nivel :* %level
-〬║├⫹⫺ *Rango :* %role
-║├⫹⫺ *Exp :* %exp
+║❄️ *Nombre :* %name
+║❄️ *Limite :* %diamond
+║❄️ *Nivel :* %level
+〬║❄️ *Rango :* %role
+║❄️ *Exp :* %exp
 ║╰──────────────
 ╚══════════════════⋆
 
-╔═══[ ＩＮＦＯＢＯＴ ]═══╗
+╔═══[ CREADOR ]═══╗
 ║╭──────────────
-║├⫹⫺ *Creador : Jxtxn17
-║├⫹⫺ *Numero:* wa.me/51929972576
-║├⫹⫺ *Tiempo Activo:* %muptime
-║├⫹⫺ *Registrado :* %rtotalreg de %totalreg usuarios
+║❄️ *Creador : Naye TB
+║❄️ *Numero:* wa.me/51967647592
+║❄️ *Tiempo Activo:* %muptime
+║❄️ *Registrado :* %rtotalreg de %totalreg usuarios
 ║╰────────────── 
 ╚══════════════════⋆
 
-╔═════「 ＨＯＹ 」════╗
-║⫹⫺ *Fecha :* %date
-〬╚═════ ≪ •❈• ≫ ═════╝
+
+❄️ *Hola @user 🐶 recuerda que el bot aun está desarollo si llegara a presentar fallas se te agradeceria si reportas con el creador
+〬
 
 `.trimStart(),
   header: '╔══「 %category 」═╗',
-  body: '║ႌ〬⫹⫺  %cmd',
-  footer: '╚════ ≪ •❈• ≫ ════╝\n',
+  body: '║❄️  %cmd',
+  footer: '╚════ TURBO-BOT-MD ════╝\n',
   after: `
 `,
 }
@@ -167,7 +167,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 }
 handler.help = ['help']
 handler.tags = ['main']
-handler.command = ['help', 'menucompleto'] 
+handler.command = ['menu', 'menucompleto'] 
 handler.register = true
 
 handler.exp = 3
