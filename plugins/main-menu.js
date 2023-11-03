@@ -35,7 +35,7 @@ const defaultMenu = {
 ╔═══[ CREADOR ]═══╗
 ║╭──────────────
 ║❄️ *Creador : Naye TB
-║❄️ *Numero:* wa.me/51967647592
+║❄️ *Numero:* wa.me/5
 ║❄️ *Tiempo Activo:* %muptime
 ║❄️ *Registrado :* %rtotalreg de %totalreg usuarios
 ║╰────────────── 
